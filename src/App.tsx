@@ -1,4 +1,5 @@
-import Header from "./components/Layout/Header";
+import { Header } from "./components";
+import { Dashboard } from "./pages";
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
@@ -6,6 +7,7 @@ export function App() {
     <>
       <GlobalStyle />
       <Header />
+      <Dashboard />
     </>
   );
 }
