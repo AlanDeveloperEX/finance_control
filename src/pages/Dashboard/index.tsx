@@ -1,4 +1,5 @@
 import { Summary } from "../../components";
+import { TransactionsTable } from "../../components";
 import { ContentLayoutDefault } from "../../styles/global";
 import { DashboardContainer } from "./styles";
 
@@ -7,8 +8,8 @@ const Dashboard = () => {
     <DashboardContainer>
       <ContentLayoutDefault>
         <Summary />
+        <TransactionsTable />
       </ContentLayoutDefault>
-      ;
     </DashboardContainer>
   );
 };

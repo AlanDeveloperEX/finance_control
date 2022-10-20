@@ -19,6 +19,22 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    scrollbar-width: thin;
+    scrollbar-color: var(--blue_light);
+  }
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--shape);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--blue_light);
+    border: 3px solid var(--blue_light);
   }
 
   html {
